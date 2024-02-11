@@ -1,0 +1,363 @@
+/* /////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+/* CABEÇALHO DO SITE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* background: #007AFF; */
+    /* background: #11334a; */
+    background: gainsboro;
+    /* height: 100vh; */
+    
+    align-items: center;
+    margin: 20px;
+    border: 2px solid #ffffff16;
+    border-top: none;
+    
+   
+}
+
+.begin{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.interface .log{
+   width: 50px;
+   height: 45px;
+   background: url(IMG/1630573469953.jpg)no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 40%;
+} 
+.interface h1{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    transform: translateX(-60px);
+    
+}
+
+.interface span{
+    color: #ffa600;
+   
+}
+    
+
+
+/* Cabeçalho */
+header{
+    padding: 20px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFB100;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+    background: #11334a;
+    
+}
+
+
+header a{ 
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header a::after{
+    content: " ";
+    width: 0% ;
+    height: 2px;
+    background-color: rgba(255, 166, 0, 0.497);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+header a:hover{
+    color: #FFB100;
+    transform: scale(1.02);
+    font-weight: 700;
+     
+}
+
+header a:hover::after{
+    width: 100%;
+}
+
+header NAV ul { 
+    list-style: none;
+}
+
+header NAV ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.button-contacto button{
+padding: 10px 40px;
+font-size: 18px;
+font-weight: 600;
+background: #FFB100;
+color: #11334a;
+border: 0;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+transition: 0.1s ease-in;
+
+}
+
+header .button-contacto button:hover{
+    transform: scale(1.02);
+    border-radius:8px ;
+    
+}
+
+section .topo-do-site{
+    padding: 40px 4%;
+    
+}
+
+/* ////////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+/* ESTILO DO TOPO DO SITE */
+
+.flex{
+    display: flex;
+    margin: -4px 0;
+    margin-top: 1px;
+    border-radius: 10px;
+    border: 1px solid orange; 
+    background: #11334a ;
+
+}
+
+.flex .caixas-especialidades{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+
+    width: 350px;
+    height: 300px;
+
+}
+
+
+.flex .caixas-especialidades img{
+    width: 45px;
+    height: 40px;
+    
+}
+
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30%;
+
+    transform: translateX(30px);
+}
+
+.topo-do-site h1 span{
+    color: #FFB100;
+    font-size: 40px;
+    font-family: sans-serif;
+    border-bottom: 2px solid orange;
+    
+}
+
+.topo-do-site .touch{
+    color: orange;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.topo-do-site .texto-topo-site p{
+    color: #fff;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translateX(20px);
+    
+}
+
+.texto-topo-site .button-contacto{
+    /* transform: translateX(30px); */
+    margin: 30px;
+}
+    
+
+.imagem-topo-site{
+    
+    width: 100% ;
+    height: 400px;
+    background: url(IMG/Digital_KIDS.png) no-repeat;
+    background-size: cover;
+    
+    transform: translateX(70px);
+    margin: 40px;
+    margin-top: 5ch;
+    transform: translateX(20px);
+    
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 40%;
+
+    border-bottom: 5px solid #ffa60023;
+    border-top: 8px solid #0091ff46;
+    
+    
+}
+
+
+.info{
+    text-align: center;
+    font-family: sans-serif;
+    background: #11334a;
+    border-radius: 6px;
+    max-width: 85vw;
+    
+    padding: 20px 0;
+    transform: translateX(60px);
+    
+
+}
+
+.info h2{
+    color: white;
+    font-size: 30px;
+}
+.info span{
+    color: #ffa600;
+    
+}
+
+
+
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+/* ESPECIALIDADES */
+
+.especialidade{
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.especialidade .caixas-especialidades{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background: whitesmoke;
+    margin: 20px;
+    border: 1px solid orange;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.especialidade .caixas-especialidades:hover{
+    transform: scale(1.09);
+    background: #11334a;
+}
+
+
+.especialidade .caixas-especialidades img{
+    transition: 0.5s;
+    width: 40px;
+    height: 35px;
+
+}
+
+.especialidade .caixas-especialidades img:hover{
+    background-color: white;
+}
+
+.especialidade .caixas-especialidades h1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    
+
+}
+ 
+.especialidade .caixas-especialidades .conteudo{
+    padding: 20px;
+    text-align: center;
+}
+
+.especialidade .caixas-especialidades .conteudo p{
+    color: #666;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+
+.especialidade .caixas-especialidades .conteudo p:hover{
+    color: white;
+}
+
+.especialidade .caixas-especialidades .conteudo a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.2s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.especialidade .caixas-especialidades .conteudo a:hover{
+    background-color: rgba(255, 166, 0, 0.621);
+}
+
+.especialidade .caixas-especialidades:hover{
+    background: #11334a;
+}
